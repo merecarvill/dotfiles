@@ -1,12 +1,17 @@
 [alias]
+  amend = commit -a --amend
   br = branch
-  ci = commit
+  cbr = "!f() { git branch --merged $1 | grep -v " $1$" | xargs -r git branch -d; }; f main"
+  ci = !git add . && git commit -m
+  cia = !git add . && git commit --amend --no-edit
   co = checkout
   di = diff
+  ec = config --global -e
   lg = log
+  p = pull --rebase --prune
   st = status
-  cia = commit -a --amend --no-edit
-  aa = add .
+  undo = reset HEAD^
+  wip = !git add . && git commit -m"wip"
 [core]
   editor = code --wait
   pager = diff-so-fancy | less --tabs=4 -RFX
