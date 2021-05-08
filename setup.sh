@@ -22,11 +22,13 @@ link () {
 
 # install fonts
 
-git clone https://github.com/powerline/fonts.git --depth=1
-cd fonts || exit
-./install.sh
-cd ..
-rm -rf fonts
+if ! [ -d "$HOME/Library/Fonts" ]; then
+  git clone https://github.com/powerline/fonts.git --depth=1
+  cd fonts || exit
+  ./install.sh
+  cd ..
+  rm -rf fonts
+fi
 
 # install homebrew
 
