@@ -5,8 +5,11 @@
   di = diff
   lg = log
   st = status
+  cia = commit -a --amend --no-edit
+  aa = add .
 [core]
-	editor = code --wait
+  editor = code --wait
+  pager = diff-so-fancy | less --tabs=4 -RFX
 [diff]
   tool = vscode-difftool
 [difftool "vscode-difftool"]
@@ -14,3 +17,20 @@
 [user]
   name = Spencer Carvill
   email = scarvill91@gmail.com
+[interactive]
+  diffFilter = diff-so-fancy --patch
+[color]
+  ui = true
+[color "diff-highlight"]
+  oldNormal = red bold
+  oldHighlight = red bold 52
+  newNormal = green bold
+  newHighlight = green bold 22
+[color "diff"]
+  meta = cyan bold
+  frag = magenta bold
+  func = 146 bold
+  commit = yellow bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse

@@ -233,6 +233,20 @@
             }
           }
         }
+      },
+      "diff-so-fancy": {
+        "version": "1.4.0",
+        "bottle": {
+          "rebuild": 1,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/diff-so-fancy/blobs/sha256:cad82a5ca348351d26bb9673dee9534f874c6df6cf1969b5254bef430773a4a7",
+              "sha256": "cad82a5ca348351d26bb9673dee9534f874c6df6cf1969b5254bef430773a4a7"
+            }
+          }
+        }
       }
     },
     "mas": {

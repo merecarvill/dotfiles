@@ -587,13 +587,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.34118849039077759</real>
+				<real>0.19164371490478516</real>
 				<key>Color Space</key>
 				<string>sRGB</string>
 				<key>Green Component</key>
-				<real>0.16278219223022461</real>
+				<real>0.020783520142458656</real>
 				<key>Red Component</key>
-				<real>0.19937470555305481</real>
+				<real>0.055828269306228209</real>
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
@@ -1029,7 +1029,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>1000</integer>
+			<integer>0</integer>
 			<key>Selected Text Color</key>
 			<dict>
 				<key>Alpha Component</key>
@@ -1142,5 +1142,9 @@
 	<false/>
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
+	<key>kCPKSelectionViewPreferredModeKey</key>
+	<integer>0</integer>
+	<key>kCPKSelectionViewShowHSBTextFieldsKey</key>
+	<false/>
 </dict>
 </plist>

@@ -5,6 +5,7 @@ brew "fish"
 brew "tldr"
 brew "jq"
 brew "grep"
+brew "diff-so-fancy"
 
 cask "iterm2"
 cask "rectangle"
