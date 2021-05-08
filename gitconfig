@@ -1,0 +1,16 @@
+[alias]
+  br = branch
+  ci = commit
+  co = checkout
+  di = diff
+  lg = log
+  st = status
+[core]
+	editor = code --wait
+[diff]
+  tool = vscode-difftool
+[difftool "vscode-difftool"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+[user]
+  name = Spencer Carvill
+  email = scarvill91@gmail.com
