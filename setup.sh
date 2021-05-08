@@ -20,6 +20,14 @@ link () {
   fi
 }
 
+# install fonts
+
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts || exit
+./install.sh
+cd ..
+rm -rf fonts
+
 # install homebrew
 
 if ! [ -x "$(command -v brew)" ]; then

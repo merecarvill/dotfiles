@@ -1,24 +1,30 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+
 cask_args appdir: "~/Applications", require_sha: true
 
-brew "git"
-brew "fish"
-brew "tldr"
-brew "jq"
-brew "grep"
 brew "diff-so-fancy"
+brew "fish"
+brew "git"
+brew "jq"
+brew "mas"
 brew "nvm"
+brew "starship"
 brew "the_silver_searcher"
+brew "tldr"
 
+cask "discord"
+cask "docker"
+cask "firefox"
+cask "flycut"
 cask "iterm2"
+cask "postman"
 cask "rectangle"
 cask "visual-studio-code"
-cask "firefox"
-cask "discord"
-cask "postman"
-cask "docker"
 cask "zoom"
-cask "flycut"
 
-mas "slack", id: 803453959
-mas "1Password", id: 1333542190
-mas "Giphy Capture", id: 668208984
+mas "1Password 7", id: 1333542190
+mas "GIPHY CAPTURE", id: 668208984
+mas "Slack", id: 803453959
