@@ -1,73 +1,5 @@
 {
   "entries": {
-    "cask": {
-      "slack": {
-        "version": "4.16.0",
-        "options": {
-          "full_name": "slack"
-        }
-      },
-      "iterm2": {
-        "version": "3.4.6",
-        "options": {
-          "full_name": "iterm2",
-          "args": {
-            "appdir": "~/Applications",
-            "require_sha": true
-          }
-        }
-      },
-      "rectangle": {
-        "version": "0.45,50",
-        "options": {
-          "full_name": "rectangle",
-          "args": {
-            "appdir": "~/Applications",
-            "require_sha": true
-          }
-        }
-      },
-      "visual-studio-code": {
-        "version": "1.56.0",
-        "options": {
-          "full_name": "visual-studio-code",
-          "args": {
-            "appdir": "~/Applications",
-            "require_sha": true
-          }
-        }
-      },
-      "firefox": {
-        "version": "88.0.1",
-        "options": {
-          "full_name": "firefox",
-          "args": {
-            "appdir": "~/Applications",
-            "require_sha": true
-          }
-        }
-      },
-      "discord": {
-        "version": "0.0.262",
-        "options": {
-          "full_name": "discord",
-          "args": {
-            "appdir": "~/Applications",
-            "require_sha": true
-          }
-        }
-      },
-      "postman": {
-        "version": "8.3.1",
-        "options": {
-          "full_name": "postman",
-          "args": {
-            "appdir": "~/Applications",
-            "require_sha": true
-          }
-        }
-      }
-    },
     "brew": {
       "git": {
         "version": "2.31.1",
@@ -247,6 +179,82 @@
             }
           }
         }
+      },
+      "nvm": {
+        "version": "0.38.0",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "all": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/nvm/blobs/sha256:f3cd481b024f9e46a56450d6aaf43c83875e8e7796db6838a6441195b039a368",
+              "sha256": "f3cd481b024f9e46a56450d6aaf43c83875e8e7796db6838a6441195b039a368"
+            }
+          }
+        }
+      }
+    },
+    "cask": {
+      "iterm2": {
+        "version": "3.4.6",
+        "options": {
+          "full_name": "iterm2",
+          "args": {
+            "appdir": "~/Applications",
+            "require_sha": true
+          }
+        }
+      },
+      "rectangle": {
+        "version": "0.45,50",
+        "options": {
+          "full_name": "rectangle",
+          "args": {
+            "appdir": "~/Applications",
+            "require_sha": true
+          }
+        }
+      },
+      "visual-studio-code": {
+        "version": "1.56.0",
+        "options": {
+          "full_name": "visual-studio-code",
+          "args": {
+            "appdir": "~/Applications",
+            "require_sha": true
+          }
+        }
+      },
+      "firefox": {
+        "version": "88.0.1",
+        "options": {
+          "full_name": "firefox",
+          "args": {
+            "appdir": "~/Applications",
+            "require_sha": true
+          }
+        }
+      },
+      "discord": {
+        "version": "0.0.262",
+        "options": {
+          "full_name": "discord",
+          "args": {
+            "appdir": "~/Applications",
+            "require_sha": true
+          }
+        }
+      },
+      "postman": {
+        "version": "8.3.1",
+        "options": {
+          "full_name": "postman",
+          "args": {
+            "appdir": "~/Applications",
+            "require_sha": true
+          }
+        }
       }
     },
     "mas": {
@@ -256,20 +264,12 @@
   },
   "system": {
     "macos": {
-      "mojave": {
-        "HOMEBREW_VERSION": "3.1.5",
-        "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "1572af22de4242031f95608da8a65905fec13abb",
-        "CLT": "10.3.0.0.1.1562985497",
-        "Xcode": "10.3",
-        "macOS": "10.14.6"
-      },
       "big_sur": {
         "HOMEBREW_VERSION": "3.1.5",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "625fbbcc0d7c16be8838dc2c309714dd553ccbd1",
-        "CLT": "",
-        "Xcode": "",
+        "Homebrew/homebrew-core": "8ebc4735cf6cea5c02ad8affa6e6d2f5438deef5",
+        "CLT": "12.5.0.0.1.1617976050",
+        "Xcode": "12.0",
         "macOS": "11.3.1"
       }
     }

@@ -1,10 +1,8 @@
 # dotfiles
 
-## Automated Setup
+## Setup
 
-- `chmod +x setup.sh`
-- `./setup.sh`
-
-## Manual Follow-Up
-
+- Install xcode toolkit: `xcode-select --install`
+- Make setup script executable: `chmod +x setup.sh`
+- Run setup script: `./setup.sh`
 - Import `rectangle.json` settings into Rectangle app.

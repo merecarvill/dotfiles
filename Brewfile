@@ -6,6 +6,7 @@ brew "tldr"
 brew "jq"
 brew "grep"
 brew "diff-so-fancy"
+brew "nvm"
 
 cask "iterm2"
 cask "rectangle"

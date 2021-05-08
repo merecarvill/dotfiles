@@ -35,7 +35,29 @@ brew cleanup
 
 # link dotfiles
 
-link gitconfig
+if ! [ -L "$HOME/.gitconfig" ]; then
+  rm -f "$HOME/.gitconfig"
+
+  if ln -s "$PWD/gitconfig" "$HOME/.gitconfig"; then
+    echo "Linked: gitconfig"
+  fi
+fi
+
+if ! [ -L "$HOME/.config/fish" ]; then
+  rm -rf "$HOME/.config/fish"
+
+  if ln -s "$PWD/fish" "$HOME/.config/fish"; then
+    echo "Linked: .config/fish"
+  fi
+fi
+
+if ! [ -L "$HOME/.config/omf" ]; then
+  rm -rf "$HOME/.config/omf"
+
+  if ln -s "$PWD/omf" "$HOME/.config/omf"; then
+    echo "Linked: .config/omf"
+  fi
+fi
 
 # configure macos
 
@@ -66,17 +88,15 @@ if ! [ -f "$HOME/.ssh/id_ed25519" ]; then
 
   echo "SSH key generated:"
   cat "$HOME/.ssh/id_ed25519.pub"
-else
-  echo "Already done: generate ssh key"
 fi
 
-# use fish shell
+# setup fish shell
 
 fish_path="/usr/local/bin/fish"
 
 if ! grep -q $fish_path /etc/shells; then
   echo $fish_path | tee -a /etc/shells
   chsh -s $fish_path
-else
-  echo "Already done: use fish shell"
 fi
+
+fish fish_setup.fish
