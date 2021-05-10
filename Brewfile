@@ -22,6 +22,7 @@ cask "flycut"
 cask "iterm2"
 cask "postman"
 cask "rectangle"
+cask "signal"
 cask "visual-studio-code"
 cask "zoom"
 
