@@ -361,8 +361,12 @@
 	</dict>
 	<key>Default Bookmark Guid</key>
 	<string>4ECFAF65-8231-41A2-92BF-3B1D6181D409</string>
+	<key>EnableDivisionView</key>
+	<true/>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
+	<key>HideTab</key>
+	<true/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -1109,6 +1113,8 @@
 			<string>/Users/scv/workspace</string>
 		</dict>
 	</array>
+	<key>OnlyWhenMoreTabs</key>
+	<false/>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1142,7 +1148,19 @@
 			<string>kNextWindowPointerAction</string>
 		</dict>
 	</dict>
+	<key>PreserveWindowSizeWhenTabBarVisibilityChanges</key>
+	<true/>
+	<key>PromptOnQuit</key>
+	<false/>
+	<key>QuitWhenAllWindowsClosed</key>
+	<true/>
 	<key>SoundForEsc</key>
+	<false/>
+	<key>StatusBarPosition</key>
+	<integer>0</integer>
+	<key>TabStyleWithAutomaticOption</key>
+	<integer>5</integer>
+	<key>UseBorder</key>
 	<false/>
 	<key>VisualIndicatorForEsc</key>
 	<false/>

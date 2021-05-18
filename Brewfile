@@ -15,6 +15,7 @@ brew "starship"
 brew "the_silver_searcher"
 brew "tldr"
 
+cask "chrysalis"
 cask "discord"
 cask "docker"
 cask "firefox"
