@@ -2,16 +2,16 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "52c901580516725372222afbfadf04f51bddddbe"
+        "revision": "10dd69f350afa58b4caa4dc060f83ec546ba115b"
       },
       "homebrew/cask": {
-        "revision": "4c4570190238775300d5bc82e37c30eadb9a8706"
+        "revision": "1c06feefa63f0618867a0e24d0bb0faf512b417b"
       },
       "homebrew/cask-fonts": {
-        "revision": "0a077de554c8d2ddc055f6c92012291105c0eb5e"
+        "revision": "ab320b1e46f329c808a9ee54ac33353f3e8e10b9"
       },
       "homebrew/core": {
-        "revision": "fad46330fa44b656b5d0c1e94f833f27e9e8002a"
+        "revision": "1a82657681434496e22adf9cdc988b080728b051"
       }
     },
     "brew": {
@@ -392,12 +392,22 @@
             "require_sha": true
           }
         }
+      },
+      "dbeaver-community": {
+        "version": "21.0.5",
+        "options": {
+          "full_name": "dbeaver-community",
+          "args": {
+            "appdir": "~/Applications",
+            "require_sha": true
+          }
+        }
       }
     },
     "mas": {
       "1Password 7": {
         "id": "1333542190",
-        "version": "7.8.2"
+        "version": "7.8.3"
       },
       "GIPHY CAPTURE": {
         "id": "668208984",
@@ -412,9 +422,9 @@
   "system": {
     "macos": {
       "big_sur": {
-        "HOMEBREW_VERSION": "3.1.7",
+        "HOMEBREW_VERSION": "3.1.8",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "fad46330fa44b656b5d0c1e94f833f27e9e8002a",
+        "Homebrew/homebrew-core": "1a82657681434496e22adf9cdc988b080728b051",
         "CLT": "12.5.0.0.1.1617976050",
         "Xcode": "12.5",
         "macOS": "11.3.1"

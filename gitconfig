@@ -2,8 +2,8 @@
   amend = commit -a --amend
   br = branch
   cbr = "!f() { git branch --merged $1 | grep -v " $1$" | xargs -r git branch -d; }; f main"
-  ci = !git add . && git commit -m
-  cia = !git add . && git commit --amend --no-edit
+  ci = commit -m
+  cia = commit --amend --no-edit
   co = checkout
   di = diff
   ec = config --global -e

@@ -16,6 +16,7 @@ brew "the_silver_searcher"
 brew "tldr"
 
 cask "chrysalis"
+cask "dbeaver-community"
 cask "discord"
 cask "docker"
 cask "firefox"
